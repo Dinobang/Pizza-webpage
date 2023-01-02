@@ -4,9 +4,10 @@ body {
     font-size: 1.5rem;
     line-height: 1.5;
     margin: 0;
-    background-image: url('images/img_20.png');
-    background-size: auto;
-
+    background-image: url('images/img_22.png');
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-color: black;
 }
 
 header {
@@ -49,8 +50,8 @@ footer {
     min-height: 30vh;
     max-width: 100%;
     max-height: 40vh;
-    background-color: black;
     color: whitesmoke;
+    border-top: 4px solid  antiquewhite;
 }
 
 a {
