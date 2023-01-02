@@ -17,11 +17,16 @@ nav {
     max-width: 100%;
     display: flex;
     padding: 4px 16px;
-    margin: auto auto;
     flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     height: 10vh;
+
+}
+
+nav > a{
+    float: left;
+    margin: auto auto auto 10px;
 }
 
 main {
@@ -180,7 +185,7 @@ div+div  {    margin-bottom: 16px !important; }
 input{
     width: 227.906px;
     font-size: 16px;
-    line-height: 24px;
+    line-height: 30px;
     border: 1px solid;
     border-radius: 7px;
 }
@@ -214,6 +219,7 @@ hr + div {
      padding-bottom: 20px;
      overflow: scroll;
      overflow-x: hidden;
+     justify-content: space-around;
  }
 
 ::-webkit-scrollbar {
