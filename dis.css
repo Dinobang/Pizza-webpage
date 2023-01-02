@@ -3,10 +3,7 @@ body {
     font-family: sans-serif;
     font-size: 1.5rem;
     line-height: 1.5;
-    min-height: 100vh;
-    max-height: 100vh;
     margin: 0;
-    padding: 0;
     background-image: url('images/img_20.png');
     background-size: auto;
 
@@ -135,8 +132,6 @@ header a:hover{
     align-items: center;
     height: 30vh;
     flex-direction: column;
-    position: absolute;
-    left: 45%;
 
 }
 
@@ -156,7 +151,8 @@ header a:hover{
 #contact {
     display: flex;
     flex-wrap: wrap;
-    flex-direction: row-reverse;
+    flex-direction: row;
+    justify-content: space-evenly;
 }
 
 #contact-col2{
